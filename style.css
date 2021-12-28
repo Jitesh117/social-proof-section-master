@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* mobile design */
+@media screen and (max-width: 375px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    /* style of the pic reviews */
+    .picrev{
+        background-color:  hsl(300, 43%, 22%);
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
